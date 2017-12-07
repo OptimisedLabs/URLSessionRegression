@@ -21,6 +21,8 @@ Recreate URLSession for each `dataTask(with:)`, by commenting out line 4 and unc
 
 ## Swift versions affected
 
+* Swift version 4.0 (swift-4.0-RELEASE)
+* Swift version 4.0.2 (swift-4.0.2-RELEASE)
 * Swift version 4.0.3 (swift-4.0.3-RELEASE)
 * Swift version 4.1-dev (LLVM cdc9836644, Clang f0e38d2044, Swift 7a0598c7dd)
 

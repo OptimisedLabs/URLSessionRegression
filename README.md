@@ -2,6 +2,8 @@
 
 Regression: Reusing an URLSession on Swift 4.x causes constant CPU time.
 
+See [SR-6555](https://bugs.swift.org/browse/SR-6555).
+
 ## Steps to reproduce
 
 Using Swift 4.0.3 under Ubuntu 14.04.5 LTS:

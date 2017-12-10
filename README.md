@@ -1,4 +1,4 @@
-# URLSessionRegression
+# URLSessionRegression [![pipeline status](https://gitlab.com/optimisedlabs/URLSessionRegression/badges/master/pipeline.svg)](https://gitlab.com/optimisedlabs/URLSessionRegression/commits/master)
 
 Regression: Reusing an URLSession on Swift 4.x causes constant CPU time.
 

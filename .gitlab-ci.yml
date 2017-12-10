@@ -1,0 +1,27 @@
+# Vapor template, see monorepo/Templates
+#
+# Version: 4
+
+variables:
+  IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
+
+stages:
+  - build
+  - create
+
+cache:
+  paths:
+    - .build/checkouts
+    - .build/dependencies-state.json
+    - .build/repositories
+    - Package.resolved
+
+build:
+  stage: build
+  image: ibmcom/swift-ubuntu:4.0.3
+  script:
+    - time swift build -c release
+  artifacts:
+    paths:
+      - .build/release/URLSessionRegression
+    expire_in: 8 days

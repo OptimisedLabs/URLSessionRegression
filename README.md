@@ -11,7 +11,7 @@ Using Swift 4.1.2 under Ubuntu 14.04.5 LTS:
 2. In a new session `swift build`
 3. `swift run`
 4. Observe after first HTTP response CPU time drops back to zero
-5. However, after second HTTP response CPU isusing constant time
+5. However, after second HTTP response CPU is using constant time
 
 ## Expected behaviour
 

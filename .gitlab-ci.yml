@@ -1,7 +1,3 @@
-# Vapor template, see monorepo/Templates
-#
-# Version: 4
-
 variables:
   IMAGE_TAG: $CI_REGISTRY_IMAGE:$CI_COMMIT_TAG
 
@@ -18,7 +14,7 @@ cache:
 
 build:
   stage: build
-  image: ibmcom/swift-ubuntu:4.0.3
+  image: ibmcom/swift-ubuntu:4.1.2
   script:
     - time swift build -c release
   artifacts:
